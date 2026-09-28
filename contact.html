@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - ArdaqAmantay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="ArdaqAmantay">
+            <span>ArdaqAmantay</span>
+        </a>
+
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li><a href="index.html" data-ru="Главная" data-kz="Басты бет">Главная</a></li>
+                <li><a href="about.html" data-ru="О нас" data-kz="Біз туралы">О нас</a></li>
+                <li><a href="catalog.html" data-ru="Каталог" data-kz="Каталог">Каталог</a></li>
+                <li><a href="gallery.html" data-ru="Галерея" data-kz="Галерея">Галерея</a></li>
+                <li><a href="contact.html" data-ru="Контакты" data-kz="Байланыс">Контакты</a></li>
+            </ul>
+
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="kz">KZ</button>
+            </div>
+
+            <button class="menu-toggle" aria-label="Меню">☰</button>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-ru="Контакты" data-kz="Байланыс">Контакты</h1>
+            <p
+                data-ru="Свяжитесь с нами, чтобы обсудить пошив сценических и национальных костюмов."
+                data-kz="Сахналық және ұлттық костюмдерді тігу туралы сөйлесу үшін бізбен байланысыңыз."
+            >
+                Свяжитесь с нами, чтобы обсудить пошив сценических и национальных костюмов.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-grid">
+
+            <div class="contact-info">
+                <h2
+                    data-ru="Свяжитесь с нами"
+                    data-kz="Бізбен байланысыңыз"
+                >
+                    Свяжитесь с нами
+                </h2>
+
+                <p
+                    data-ru="Расскажите о вашем проекте, и мы обсудим детали заказа."
+                    data-kz="Жобаңыз туралы айтып беріңіз, біз тапсырыстың мәліметтерін талқылаймыз."
+                >
+                    Расскажите о вашем проекте, и мы обсудим детали заказа.
+                </p>
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+                        <strong
+                            data-ru="Телефон"
+                            data-kz="Телефон"
+                        >
+                            Телефон
+                        </strong>
+
+                        <a href="tel:+77089338225">
+                            +7-708-933-82-25
+                        </a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong
+                            data-ru="WhatsApp"
+                            data-kz="WhatsApp"
+                        >
+                            WhatsApp
+                        </strong>
+
+                        <a
+                            href="https://wa.me/77089338225"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            Написать в WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong
+                            data-ru="Instagram"
+                            data-kz="Instagram"
+                        >
+                            Instagram
+                        </strong>
+
+                        <a
+                            href="https://instagram.com/ardaqamantay"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            @ardaqamantay
+                        </a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong
+                            data-ru="Город"
+                            data-kz="Қала"
+                        >
+                            Город
+                        </strong>
+
+                        <span
+                            data-ru="Астана, Казахстан"
+                            data-kz="Астана, Қазақстан"
+                        >
+                            Астана, Казахстан
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="contact-form">
+
+                <h2
+                    data-ru="Оставить заявку"
+                    data-kz="Өтінім қалдыру"
+                >
+                    Оставить заявку
+                </h2>
+
+                <form id="orderForm">
+
+                    <div class="form-group">
+                        <label
+                            for="name"
+                            data-ru="Ваше имя"
+                            data-kz="Атыңыз"
+                        >
+                            Ваше имя
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            data-placeholder-ru="Введите ваше имя"
+                            data-placeholder-kz="Атыңызды енгізіңіз"
+                            placeholder="Введите ваше имя"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label
+                            for="phone"
+                            data-ru="Телефон"
+                            data-kz="Телефон"
+                        >
+                            Телефон
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            required
+                            data-placeholder-ru="+7-700-000-00-00"
+                            data-placeholder-kz="+7-700-000-00-00"
+                            placeholder="+7-700-000-00-00"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label
+                            for="category"
+                            data-ru="Категория"
+                            data-kz="Санат"
+                        >
+                            Категория
+                        </label>
+
+                        <select id="category" name="category" required>
+                            <option
+                                value=""
+                                disabled
+                                selected
+                                data-ru="Выберите категорию"
+                                data-kz="Санатты таңдаңыз"
+                            >
+                                Выберите категорию
+                            </option>
+
+                            <option
+                                value="Сценический костюм"
+                                data-ru="Сценический костюм"
+                                data-kz="Сахналық костюм"
+                            >
+                                Сценический костюм
+                            </option>
+
+                            <option
+                                value="Национальный костюм"
+                                data-ru="Национальный костюм"
+                                data-kz="Ұлттық костюм"
+                            >
+                                Национальный костюм
+                            </option>
+
+                            <option
+                                value="Детский костюм"
+                                data-ru="Детский костюм"
+                                data-kz="Балалар костюмі"
+                            >
+                                Детский костюм
+                            </option>
+
+                            <option
+                                value="Костюм для ансамбля"
+                                data-ru="Костюм для ансамбля"
+                                data-kz="Ансамбльге арналған костюм"
+                            >
+                                Костюм для ансамбля
+                            </option>
+
+                            <option
+                                value="Другое"
+                                data-ru="Другое"
+                                data-kz="Басқа"
+                            >
+                                Другое
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label
+                            for="message"
+                            data-ru="Сообщение"
+                            data-kz="Хабарлама"
+                        >
+                            Сообщение
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            required
+                            data-placeholder-ru="Расскажите, какой костюм вам нужен"
+                            data-placeholder-kz="Қандай костюм қажет екенін жазыңыз"
+                            placeholder="Расскажите, какой костюм вам нужен"
+                        ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                        data-ru="Отправить заявку"
+                        data-kz="Өтінім жіберу"
+                    >
+                        Отправить заявку
+                    </button>
+
+                    <div id="formMessage" class="form-message"></div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="ArdaqAmantay">
+                    <span>ArdaqAmantay</span>
+                </div>
+
+                <p
+                    class="footer-description"
+                    data-ru="Пошив сценических и национальных костюмов на заказ."
+                    data-kz="Сахналық және ұлттық костюмдерді тапсырыс бойынша тігу."
+                >
+                    Пошив сценических и национальных костюмов на заказ.
+                </p>
+            </div>
+
+            <div>
+                <h3
+                    data-ru="Навигация"
+                    data-kz="Навигация"
+                >
+                    Навигация
+                </h3>
+
+                <ul class="footer-links">
+                    <li><a href="index.html" data-ru="Главная" data-kz="Басты бет">Главная</a></li>
+                    <li><a href="about.html" data-ru="О нас" data-kz="Біз туралы">О нас</a></li>
+                    <li><a href="catalog.html" data-ru="Каталог" data-kz="Каталог">Каталог</a></li>
+                    <li><a href="gallery.html" data-ru="Галерея" data-kz="Галерея">Галерея</a></li>
+                    <li><a href="contact.html" data-ru="Контакты" data-kz="Байланыс">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3
+                    data-ru="Связаться"
+                    data-kz="Байланысу"
+                >
+                    Связаться
+                </h3>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="tel:+77089338225">
+                            +7-708-933-82-25
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://wa.me/77089338225"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            WhatsApp
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://instagram.com/ardaqamantay"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            Instagram
+                        </a>
+                    </li>
+                    <li> <a href="privacy.html">Политика конфиденциальности</a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 ArdaqAmantay
+        </div>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
